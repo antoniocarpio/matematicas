@@ -7,12 +7,9 @@ public class TestMatematicas {
 		int numero = sc.nextInt();
 		System.out.printf("%s %d %s %b%n", "El número ", numero, "es par: ",
 			Matematicas.esPar(numero));
-		
-		/*
-		if (Matematicas.esPar(numero))
-			System.out.println("El número "+numero+" es par");
-		else
-			System.out.println("El número "+numero+" NO es par");
-		*/
+		System.out.printf("%s %d %s %b%n", "El número ", numero, "es divisible por 3: ",
+			Matematicas.esDivisiblePorTres(numero));
+		System.out.printf("%s %d %s %b%n", "El número ", numero, "es divisible por 5: ",
+			Matematicas.esDivisiblePorCinco(numero));
 	}
 }
