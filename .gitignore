@@ -1,0 +1,9 @@
+# ignoramos los bytecodes
+*.class
+
+# ignoramos la carpeta doc
+/doc/
+
+# ignoramos copias o backup
+*.swp
+*~
